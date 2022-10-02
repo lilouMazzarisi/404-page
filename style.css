@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+    margin-bottom: 5px;
+    letter-spacing: -35px;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 1px 1px 10px lightpink;
+    margin:0px;
+    margin-bottom: 50px;
+}
+
+a {
+    border: 1px solid; 
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px; 
+    color: lightblue;
+    box-shadow: 1px 1px 8px lightblue;
+}
+
+a:hover {
+    color: lightpink;
+    background-color: linen;
+    box-shadow: 1px 1px 8px lightpink;
+}
+
+.colorHopping1{
+    animation: colorHopping1 1s infinite;
+}
+.colorHopping2{
+    animation: colorHopping2 1s infinite;
+}
+.colorHopping3{
+    animation: colorHopping3 1s infinite;
+}
+.colorHopping4{
+    animation: colorHopping4 1s infinite;
+}
+.colorHopping5{
+    animation: colorHopping5 1s infinite;
+}
+
+@keyframes colorHopping1 {
+    0% {
+        color: white;     
+    }
+    15% {
+        color: lightblue;
+        text-shadow: 1px 1px 10px lightblue;
+    }
+}
+@keyframes colorHopping2 {
+    20% {
+        color: white;     
+    }
+    35% {
+        color: lightblue;
+        text-shadow: 1px 1px 10px lightblue;
+    }
+}
+@keyframes colorHopping3 {
+    40% {
+        color: white;     
+    }
+    65% {
+        color: lightblue;
+        text-shadow: 1px 1px 10px lightblue;
+    }
+}
+@keyframes colorHopping4 {
+    70% {
+        color: white;     
+    }
+    85% {
+        color: lightblue;
+        text-shadow: 1px 1px 10px lightblue;
+    }
+}
+@keyframes colorHopping5 {
+    90% {
+        color: white;     
+    }
+    100% {
+        color: lightblue;
+        text-shadow: 1px 1px 10px lightblue;
+    }
+}
